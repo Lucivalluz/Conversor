@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="conversor.css">
+        
+    <title>Document</title>
+</head>
+
+<body>
+    <img class="logo" src="assets/logo.gif" alt="log-convert-money">
+    <main>
+
+        <label>
+            <p>Converter <b>de</b></p>
+            <select>
+
+                <option><b>R$ Real brasileiro</b></option>
+
+            </select>
+
+
+        </label>
+
+        <label>
+            <p>Converter <b>para</b></p>
+            <select>
+
+                <option><b>US$ Dolar americano</b></option>
+                <option><b>€ Euro</b></option>
+                <option><b>£ Libra</b></option>
+
+            </select>
+
+
+        </label>
+
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+           <div class="currency-box">
+              <img src="assets/real.png" alt="logo-moeda-a-converter">
+              <p class="currency">Real</p>
+              <p class="currency-value-to-convert"><b>R$ 0,00</b></p>
+           </div>
+           <img class="arrow" src="assets/Vector.png" alt="seta">
+           <div class="currency-box">
+            <img src="assets/dolar.png" alt="logo-moeda-convertida">
+            <p class="currency">Dólar</p>
+            <p class="currency-value"><b>US$ 0.00</b></p>
+
+         </div>
+        
+
+        </section>
+
+
+
+    </main>
+
+</body>
+<script src="./conversor.js"></script>
+</html>
